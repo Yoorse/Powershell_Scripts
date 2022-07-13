@@ -1,0 +1,1 @@
+﻿New-DynamicDistributionGroup -Name "" -DisplayName "" -PrimarySMTP ""-OrganizationalUnit '' -RecipientContainer '' -RecipientFilter {((RecipientType -eq 'UserMailbox') -and (office -like "")) } 
