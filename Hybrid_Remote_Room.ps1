@@ -1,0 +1,1 @@
+﻿New-RemoteMailbox -Room -Name "" -Firstname "" -LastName "" -UserPrincipalName "" -OnPremisesOrganizationalUnit ""
