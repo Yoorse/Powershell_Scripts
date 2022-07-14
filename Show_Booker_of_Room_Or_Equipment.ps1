@@ -14,7 +14,7 @@ Connect-EXOPsession
 
 ##Please use the Alias for the room/equipment 
 
-$Mailbox = Read-Host -Prompt "Enter the name of the mailbox with the domain name too.","Example SK-PVC1-MeetingRoom2"
+$Mailbox = Read-Host -Prompt "Enter the Alias of the mailbox.","Example: MeetingRoom2"
 
 $Calendar = $Mailbox + ":\calendar"
 
@@ -33,7 +33,7 @@ else {
 
 ##The same commands as above. Only you don't have to connect to a session first.
 
-$Mailbox = Read-Host -Prompt "Enter the name of the mailbox with the domain name too.","Example SK-PVC1-MeetingRoom2"
+$Mailbox = Read-Host -Prompt "Enter the Alias of the mailbox.","Example: MeetingRoom2"
 
 $Calendar = $Mailbox + ":\calendar"
 
