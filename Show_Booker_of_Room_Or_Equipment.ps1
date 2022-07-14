@@ -10,7 +10,7 @@ if ($Connection -eq 0 ) {
 
 ##Connect to Exchange Session
  
-Connect-EXOPsession
+Connect-EXOPSSession
 
 ##Please use the Alias for the room/equipment 
 
