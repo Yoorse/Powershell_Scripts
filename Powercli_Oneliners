@@ -1,0 +1,8 @@
+###Connect to VICenter
+Connect-VIServer -Server "server" -User "user" -Password "PW"
+
+###Get host and services  
+Get-VMHost "host" | Get-VMHostService
+
+###Enable SSH service for host
+Get-VMHost "host" | Get-VMHostService | Where { $_.Key -eq "TSM-SSH" } | Start-VMHostService
